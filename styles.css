@@ -1,0 +1,86 @@
+/* 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .example {background: red;}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .example {background: green;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .example {background: blue;}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .example {background: orange;}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .example {background: pink;}
+} */
+    
+
+body{
+   background-color:#9BD3F4;
+    
+    /* background-repeat: no-repeat;
+    width: 5100%; */
+}
+.heading{ 
+    display: flex;
+    justify-content: space-between;
+    color: #1ca1f3;
+}
+
+input{
+    padding: 8px 5px;
+    border-color: chocolate;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 5%;
+  
+}
+li{
+    padding: 25px;
+    gap: 5%;
+}
+.containerdiv{
+    display: flex;
+    color: black;
+    /* display: grid;
+    grid-template-areas:
+        image text
+        image text;
+    gap: 5px; */
+
+}
+.landingpagetexts{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+.landingpagetext{
+    margin: 0% 0% 0% 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    font-weight: lighter;
+}
+#your{
+    margin-left: 25%;
+}
+a{
+    margin-left: 30%;
+    color: blueviolet;
+}
+img{
+    width: 90%;
+    height: 80%;
+    margin:2% 3%;
+}
